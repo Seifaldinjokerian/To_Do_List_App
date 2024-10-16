@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To Do List App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="todo_App_Container">
+    <div class="todo_container">
+      <div class="add_task">
+        <input type="text" name="add" id="task_feild" placeholder="Add Your Tasks">
+        <span class="add_btn">+</span>
+      </div>
+      <div class="delAndFin">
+        <span class="deleteAll">Delete All</span>
+        <span class="finishAll">Finish All</span>
+      </div>
+      <div class="tasks_content">
+      </div>
+    </div>
+    <div class="task_stats">
+      <div class="tasks_count">
+        Tasks: <span>0</span>
+      </div>
+      <div class="completed_task">
+        Completed: <span>0</span>
+      </div>
+    </div>
+  </div>
+  <div class="alert scaled">
+    <span class="close">X</span>
+    <span class="warning">!</span>
+    Please Fill The Tasks Field
+  </div>
+  <div class="DuplicatedTasks scaled">
+    <span class="close1">X</span>
+    <span class="warning1">!</span>
+    This Task Has Been Already Existed
+    <span>Hint🚨:  Try Another Task Name To Compile It</span>
+  </div>
+  <!-- <script src="logic.js"></script> -->
+  <script src="logic.js"></script>
+</body>
+
+</html>
